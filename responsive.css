@@ -1,0 +1,133 @@
+/* FOR I-PAD PX SCREEN  */
+
+@media only screen and (min-width:200px) and (max-width:972px) {
+    html {
+        font-size: 50%;
+        font-weight: lighter;
+    }
+
+    .inner_nav ul>li {
+        padding: 15px;
+        border-right: 1px solid #fff;
+        display: block;
+        text-align: left;
+        transition: all .5s ease 0s;
+        cursor: pointer;
+    }
+
+    .inner_hero {
+        display: block;
+        padding: 20px 0;
+    }
+
+    .hero_image>img {
+        max-height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .hero_text {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:778px) {
+    .inner_nav ul>li {
+        display: none;
+    }
+
+    .wrapper_portfolio,
+    .inner_testi {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .child_portfolio {
+        margin-bottom: 10px;
+    }
+
+    .child_testi {
+        margin-bottom: 20px;
+    }
+
+    .inner_footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .child_footer>ul>li {
+        padding-top: 8px;
+    }
+
+    .search_f {
+
+        grid-column: 1/-1;
+    }
+}
+
+
+/* FOR MOBILE-SCREEN  */
+
+@media only screen and (min-width:200px) and (max-width:600px) {
+    #header_area {
+        padding: 10px;
+    }
+
+    .inner_header {
+        display: block;
+        text-align: center;
+    }
+
+    .search_right>form>input {
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .portfolio_title>h2 {
+        font-size: 1.6em;
+        display: block;
+        font-size: auto;
+    }
+
+    .portfolio_title>p {
+        font-size: 1.4em;
+
+    }
+
+    .wrapper_portfolio,
+    .inner_testi,
+    .inner_footer {
+        display: block;
+        text-align: center;
+    }
+
+    .child_footer {
+        text-align: center;
+    }
+
+    .child_footer>h3 {
+        font-size: 1.8em;
+        font-weight: bold;
+    }
+
+    .child_footer>ul {
+        display: block;
+    }
+
+    .child_footer>ul>li {
+        display: inline-block;
+        padding-top: 8px;
+        text-align: center;
+    }
+
+    .inner_copyright {
+        display: block;
+        text-align: center;
+    }
+
+    .inner_copyrigh>p {
+        margin-bottom: 5px;
+    }
+
+}
+
+/* END OF THIS PAGE  */
